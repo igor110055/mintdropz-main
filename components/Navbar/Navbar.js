@@ -12,10 +12,10 @@ const Navbar = () => {
         <img src="/Assets/logo.png" />
       </section>
       <div className={styles.hamburger_container}>
-        <img src="/Assets/hamburger.png" />
+        <img src="/Assets/hamburger.png" alt="test"/>
       </div>
       <div className={styles.nav_items}>
-        {/* <button className="btn" onClick={scrollToForm}>Sign Up For Early Access</button> */}
+        <button className="btn" onClick={scrollToForm}>Sign Up For Early Access</button>
       </div>
     </div>
   );

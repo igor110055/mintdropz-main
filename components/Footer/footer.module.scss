@@ -94,12 +94,19 @@
     background-color: black;
     .top_sec {
       padding: 2rem;
+      #first_link_container{
+        text-align: start;
+      }
+      #second_link_container{
+        text-align: start;
+        padding: 50px 0;
+      }
       .links_container {
         h6 {
           font-family: MADE Outer Sans;
           font-style: normal;
           font-weight: bold;
-          font-size: 15px;
+          font-size: 22px;
           line-height: 19px;
           color: #b3b2b2;
           margin-bottom: 2rem;

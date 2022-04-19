@@ -21,11 +21,11 @@ const Header = () => {
               <h1>CHALLENGE!</h1>
             </div>
 
-            <div className="mx-5">
-              <p>
+            <div className="mx-3">
+              <p  className="mx-md-5">
                 "The No Days Off" Challenge is a 6-week training experience created for you by world renown trainer NDO CHAMP!
               </p>
-              <p>
+              <p className="mx-md-5">
                 Over the next six weeks NDO CHAMP will challenge you to complete the same workouts and recovery routine he does as a Professional Bodybuilder and Lead Trainer of NDO Nation! Get Ready!
               </p>
             </div>
