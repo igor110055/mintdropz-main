@@ -1,0 +1,31 @@
+.challenge{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 0;
+    zoom: 90%;
+    .top_header {
+      h1 {
+        font-family: MADE Outer Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 77px;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 0 !important;
+      }
+      h2{
+        font-family: MADE Outer Sans;
+        font-style: normal;
+        // font-weight: bold;
+        font-size: 20px;
+        line-height: 77px;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 0 !important;
+
+      }
+    }
+}

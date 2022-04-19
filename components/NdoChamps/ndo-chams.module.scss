@@ -1,0 +1,67 @@
+.ndo_container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 0;
+    zoom: 90%;
+    .top_header {
+      h1 {
+        font-family: MADE Outer Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 60px;
+        line-height: 77px;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 0 !important;
+      }
+    }
+
+    p{
+      font-family: MADE Outer Sans;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 25px;
+      line-height: 31px;
+
+      color: #ffffff;
+    }
+    .innertext{
+        width: 90%;
+        height: 100%;
+        text-align: center;
+        // display: flex;
+        // flex-direction: column;
+        // align-items: flex-start;
+        // justify-content:center;
+        padding: 2rem;
+        // margin-top: 1rem;
+        margin: auto;
+    }
+    .ndo_card{
+        // width: 10%;
+        width: 20rem !important;
+        margin: auto;
+        border: 1px solid #C4C4C4;
+        padding: 10px;
+        border-radius: 15px;
+        
+        .card{
+            // width: 20rem !important;
+            // width: 10%;
+        }
+    }
+    .test_btn{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        input{
+            background: #8C58FF;
+            padding: 20px 100px;
+            font-weight: 600;
+            font-size: 30px;
+
+        }
+    }
+}

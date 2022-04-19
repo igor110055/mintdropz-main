@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Joyride";
+  src: url("/Fonts/Joyride/Joyride-STD.otf");
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "MADE Outer Sans";
+  src: url("/Fonts/Made/MADE\ Outer\ Sans\ Light\ PERSONAL\ USE.otf");
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "MADE Outer Sans";
+  src: url("/Fonts/Made/MADE-Outer-Sans-Alt-Medium-PERSONAL-USE.otf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+}
+@font-face {
+  font-family: "MADE Outer Sans";
+  src: url("/Fonts/Made/bold_extra.otf");
+  font-style: normal;
+  font-display: swap;
+  font-weight: 800;
+}
+@font-face {
+  font-family: "Hanson";
+  src: url("/Fonts/Hanson/Hanson-Bold.otf");
+  font-style: normal;
+  font-display: swap;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  font-family: MADE Outer Sans;
+  box-sizing: border-box;
+}
