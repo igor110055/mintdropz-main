@@ -11,37 +11,28 @@ const Header = () => {
 
   return (
     <div className={styles.header_container}>
-      <Row className="row">
-        <Col sm={12} md={12} data-aos='fade-right' data-aos-duration='500' data-aos-delay='200'>
+      <Row className="row flex-column-reverse flex-lg-row">
+        <Col sm={12} md={7} data-aos='fade-right' data-aos-duration='500' data-aos-delay='200'>
           <section className={styles.content_sec}>
-            <div className="text-center m-auto">
-              <h1>
-                “THE NO DAYS OFF”
-              </h1>
-              <h1>CHALLENGE!</h1>
-            </div>
-
-            <div className="mx-3">
-              <p  className="mx-md-5">
-                "The No Days Off" Challenge is a 6-week training experience created for you by world renown trainer NDO CHAMP!
-              </p>
-              <p className="mx-md-5">
-                Over the next six weeks NDO CHAMP will challenge you to complete the same workouts and recovery routine he does as a Professional Bodybuilder and Lead Trainer of NDO Nation! Get Ready!
-              </p>
-            </div>
-            {/* <button className="btn" onClick={scrollToForm}>GET STARTED</button> */}
+            <h1>
+              LAUNCH YOUR OWN NFT PLATFORM, CREATE EXCLUSIVE EXPERIENCES FOR
+              YOUR FANS
+              <img src="/Assets/smile.png" />
+            </h1>
+            <p>
+              Start monetize your art and content without having to code. Simply
+              plug and play and launch your NFT Platform and Smart contract!
+            </p>
+            <button className="btn" onClick={scrollToForm}>GET STARTED</button>
           </section>
         </Col>
-        <Col sm={12} md={12} data-aos='slide-up' data-aos-duration='500' data-aos-delay='300'>
+        <Col sm={12} md={5} data-aos='slide-up' data-aos-duration='500' data-aos-delay='300'>
           <section className={styles.img_sec}>
-            <img alt="rich" src="/Assets/NewImage/Rectangle3.png" />
-            <img alt="rich" className={styles.midimg} src="/Assets/NewImage/Rectangle2.png" />
-            <img alt="rich" src="/Assets/NewImage/Rectangle1.png" />
+            <img alt="rich" src="/Assets/rich.png" />
           </section>
         </Col>
       </Row>
     </div>
-
   );
 };
 

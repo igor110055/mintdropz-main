@@ -3,7 +3,7 @@ import styles from "./ContentFive.module.scss";
 
 const ContentFive = () => {
     return (
-        <div className={styles.contentFive}>
+        <div className={styles.contentFive} data-aos='fade-right' data-aos-duration='1000'>
             <div className={styles.top_header}>
                 <h1>NFT REWARDS FOR THOSE WHO COMPLETE THE CHALLENGE:</h1>
                 <h2>

@@ -3,7 +3,7 @@ import styles from "./ContentTwo.module.scss";
 
 const ContentTwo = () => {
     return (
-        <div className={styles.contentTwo}>
+        <div className={styles.contentTwo} data-aos='fade-left' data-aos-duration='1000'>
             <div className={styles.top_header}>
                 <h1>LIMITED SEATING!</h1>
                 <h2>Sign-up now before this challenge is sold out!</h2>

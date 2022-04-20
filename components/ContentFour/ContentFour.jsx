@@ -3,7 +3,7 @@ import styles from "./ContentFour.module.scss";
 
 const ContentFour = () => {
     return (
-        <div className={styles.contentFour}>
+        <div className={styles.contentFour} data-aos='fade-left' data-aos-duration='1000'>
             <div className={styles.top_header}>
                 <h1>You deserve to be recognized for your hard work!</h1>
             </div>

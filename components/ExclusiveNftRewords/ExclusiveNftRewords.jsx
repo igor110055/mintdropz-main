@@ -3,7 +3,7 @@ import styles from "./ExclusiveNftRewords.module.scss";
 
 const ExclusiveNftRewords = () => {
     return (
-        <div className={styles.exclusive_nft}>
+        <div className={styles.exclusive_nft} data-aos='fade-right' data-aos-duration='1000'>
             <div className={styles.top_header}>
                 <h1>Exclusive NFT Rewards</h1>
             </div>

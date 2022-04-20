@@ -1,25 +1,23 @@
 .header_container {
-  text-align: center;
   width: 100%;
-  // height: 100vh;
-  padding-top:12rem;
+  height: 100vh;
+  margin-top:15rem;
   position: relative;
   overflow: hidden;
-  margin:auto;
   .content_sec {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content:center;
+    justify-content: flex-start;
     padding: 2rem;
     margin-top: 1rem;
     h1 {
       font-family: MADE Outer Sans;
       font-style: normal;
-      font-weight: bolder;
-      font-size: 60px;
+      font-weight: bold;
+      font-size: 40px;
       line-height: 57px;
       color: #ffffff;
     }
@@ -48,18 +46,11 @@
     }
   }
   .img_sec {
-    padding: 5rem 2rem;
-
+    padding: 2rem;
     img {
-      width: 300px;
-      height: 100%;
-      padding: 10px 0;
-      
+      max-width: 100%;
+      height: auto;
     }
-    .midimg{
-      transform: scale(1.4);
-    }
-    
   }
 }
 
@@ -69,7 +60,6 @@
     height: auto;
     position: relative;
     overflow: hidden;
-    padding-top:5rem;
     .content_sec {
       width: 100%;
       height: 100%;
@@ -114,17 +104,14 @@
       }
     }
     .img_sec {
-      padding: 2rem 2rem;
-  
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       img {
-        width: 300px;
-        height: 100%;
-        
+        max-width: 90%;
+        height: auto;
       }
-      .midimg{
-        transform: scale(1);
-      }
-      
     }
   }
 }

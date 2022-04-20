@@ -9,33 +9,17 @@ import Partners from "../components/Partners/Partners";
 import ContactForm from "../components/ContactForm/ContactForm";
 import Footer from "../components/Footer/Footer";
 import styles from "../styles/home.module.scss";
-import NdoChamps from "../components/NdoChamps/NdoChamps";
-import ExclusiveNftRewords from "../components/ExclusiveNftRewords/ExclusiveNftRewords";
-import ContentTwo from "../components/ContentTwo/ContentTwo";
-import ContentThree from "../components/ContentThree/ContentThree";
-import ContentFour from "../components/ContentFour/ContentFour";
-import ContentFive from "../components/ContentFive/ContentFive";
-import Challenge from "../components/Challenge/Challenge";
-
 
 const Home = () => {
   return (
     <div className={styles.home_container} data-aos='fade' data-aos-duration='1000'>
       <Navbar />
       <Header />
-      {/* <Ecosystem /> */}
-      <NdoChamps></NdoChamps>
-      <ExclusiveNftRewords></ExclusiveNftRewords>
-      <ContentTwo></ContentTwo>
-      <ContentThree></ContentThree>
-      <ContentFour></ContentFour>
-      <ContentFive></ContentFive>
-      <Challenge></Challenge>
-      
-      {/* <Multichains /> */}
+      <Ecosystem />
+      <Multichains />
       {/* <Platforms /> */}
-      {/* <NFTProjects /> */}
-      {/* <Partners /> */}
+      <NFTProjects />
+      <Partners />
       <ContactForm />
       <Footer />
     </div>

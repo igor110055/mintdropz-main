@@ -3,7 +3,7 @@ import styles from "./ContentThree.module.scss";
 
 const contentThree = () => {
     return (
-        <div className={styles.contentThree}>
+        <div className={styles.contentThree} data-aos='fade-right' data-aos-duration='1000'>
             <div className={styles.top_header}>
                 <h1>Real Results & Exclusive Rewards!</h1>
                 <h2>Result-Driven Workouts!</h2>
