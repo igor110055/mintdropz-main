@@ -23,26 +23,26 @@ import NdoChampsHeader from "../components/NdoChampsHeader/NdoChampsHeader";
 const ndochamps = () => {
     return (
         <div className={styles.home_container} data-aos='fade' data-aos-duration='1000'>
-      {/* <Navbar /> */}
-      <NdoChampsNavbar></NdoChampsNavbar>
-      {/* <Header /> */}
-      <NdoChampsHeader></NdoChampsHeader>
-      {/* <Ecosystem /> */}
-      <NdoChamps></NdoChamps>
-      <ExclusiveNftRewords></ExclusiveNftRewords>
-      <ContentTwo></ContentTwo>
-      <ContentThree></ContentThree>
-      <ContentFour></ContentFour>
-      <ContentFive></ContentFive>
-      <Challenge></Challenge>
-      
-      {/* <Multichains /> */}
-      {/* <Platforms /> */}
-      {/* <NFTProjects /> */}
-      {/* <Partners /> */}
-      <ContactForm />
-      <Footer />
-    </div>
+            <Navbar />
+            {/* <NdoChampsNavbar></NdoChampsNavbar> */}
+            {/* <Header /> */}
+            <NdoChampsHeader></NdoChampsHeader>
+            {/* <Ecosystem /> */}
+            <NdoChamps></NdoChamps>
+            <ExclusiveNftRewords></ExclusiveNftRewords>
+            <ContentTwo></ContentTwo>
+            <ContentThree></ContentThree>
+            <ContentFour></ContentFour>
+            <ContentFive></ContentFive>
+            <Challenge></Challenge>
+
+            {/* <Multichains /> */}
+            {/* <Platforms /> */}
+            {/* <NFTProjects /> */}
+            {/* <Partners /> */}
+            <ContactForm />
+            <Footer />
+        </div>
     );
 };
 

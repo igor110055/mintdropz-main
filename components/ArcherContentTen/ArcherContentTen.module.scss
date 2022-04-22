@@ -1,0 +1,105 @@
+.contentFour{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 0;
+    zoom: 90%;
+    .top_header {
+      h1 {
+        font-family: MADE Outer Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 77px;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 0 !important;
+      }
+    }
+    .content_container{
+        margin: 0 100px;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0;
+
+        .content_inner{
+            color: #ffffff;
+            text-align: end;
+            align-self: center;
+            margin: 0 10px;
+
+            h3{
+                font-family: MADE Outer Sans;
+                font-style: normal;
+                // font-weight: bold;
+                font-size: 24px;
+                // line-height: 77px;
+                text-align: end;
+                color: #ffffff;
+                margin-bottom: 0 !important;
+        
+              }
+
+            input{
+                background: #8C58FF;
+                color: #ffffff;
+                font-size: 30px;
+                font-weight: 400;
+                padding: 10px 40px;
+
+            }
+
+        }
+        
+    }
+}
+
+@media only screen and (max-width: 767px) {
+  .contentFour{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 0;
+    zoom: 90%;
+    .top_header {
+      h1 {
+        font-family: MADE Outer Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 50px;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 0 !important;
+      }
+    }
+    .content_container{
+        // margin: 0 100px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+        flex-direction: column;
+
+        .content_inner{
+            color: #ffffff;
+            text-align: center;
+            align-self: center;
+            margin: 50px 20px;
+
+            input{
+                background: #8C58FF;
+                color: #ffffff;
+                font-size: 30px;
+                font-weight: 400;
+                padding: 10px 40px;
+
+            }
+
+        }
+        
+    }
+  }
+}
