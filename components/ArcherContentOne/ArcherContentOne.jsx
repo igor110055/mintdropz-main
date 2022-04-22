@@ -8,14 +8,14 @@ const ArcherContentOne = () => {
                 <h1>Brandin Cooks</h1>
             </div>
             <div className={styles.innertext}>
-                <p>
+                <h3>
                     Drafted by the New Orleans Saints in 2014 out of Oregon
                     State, Cooks has been one of the more consistent receivers
                     in the NFL. In eight years, he's surpassed the 1,000-yard
                     marker six times, including twice with the Texans and
                     Saints.
-                </p>
-                <p>Learn how to play like the pros!</p>
+                </h3>
+                <h3>Learn how to play like the pros!</h3>
             </div>
             <div className={styles.ndo_card}>
                 <div className={styles.card}>
@@ -29,7 +29,7 @@ const ArcherContentOne = () => {
                             <h5 className="card-title text-white">
                                 Lorem Ipsum
                             </h5>
-                            <p className="">0000</p>
+                            <p className="text-white">0000</p>
                         </div>
                         <div>
                             <h5 className="text-white">Top Bid</h5>

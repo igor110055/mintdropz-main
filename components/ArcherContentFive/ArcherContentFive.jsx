@@ -20,7 +20,7 @@ const ArcherContentFive = () => {
                     />
                 </div>
                 <div className={styles.content_inner}>
-                    <h1>You deserve to be rec ognized for your hard work!</h1>
+                    <h1>You deserve to be recognized for your hard work!</h1>
                     <h3 className="py-5">
                         For those who complete "The Archer" Challenge, we've
                         created something special! Brandin's "Finish-Line" NFT

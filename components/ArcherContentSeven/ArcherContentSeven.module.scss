@@ -115,7 +115,7 @@
         margin: auto;
         display: flex;
         justify-content: center;
-        padding: 50px 0;
+        padding: 0px 0;
         flex-direction: column;
 
         .content_inner{
@@ -130,6 +130,18 @@
                 font-weight: bold;
                 font-size: 22px;
                 line-height: 40px;
+                text-align: center;
+                color: #ffffff;
+                margin-bottom: 0 !important;
+        
+              }
+
+              h3{
+                font-family: MADE Outer Sans;
+                font-style: normal;
+                // font-weight: bold;
+                font-size: 16px;
+                // line-height: 77px;
                 text-align: center;
                 color: #ffffff;
                 margin-bottom: 0 !important;
