@@ -5,7 +5,7 @@ const ArcherContentFour = () => {
     return (
         <div
             className={styles.contentTwo}
-            data-aos="fade-right"
+            data-aos="fade-left"
             data-aos-duration="1000"
         >
             {/* <div className={styles.top_header}>

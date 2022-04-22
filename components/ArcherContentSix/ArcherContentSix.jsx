@@ -5,8 +5,8 @@ const ArcherContentSix = () => {
     return (
         <div
             className={styles.contentFour}
-            // data-aos="fade-right"
-            // data-aos-duration="1000"
+            data-aos="fade-right"
+            data-aos-duration="1000"
         >
             <div className={styles.top_header}>
                 <h1>LIMITED SEATING!</h1>
