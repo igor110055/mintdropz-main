@@ -55,7 +55,7 @@ const ContactForm = () => {
         <input type="hidden" name="form-name" value="contact" />
         <div className={styles.form_container}>
           <Row>
-            <Col sm={12} md={12}>
+            <Col sm={12} md={6}>
               <div className={styles.custom_input}>
                 <label>Name</label>
                 <input
@@ -69,7 +69,7 @@ const ContactForm = () => {
                 />
               </div>
             </Col>
-            <Col sm={12} md={12}>
+            <Col sm={12} md={6}>
               <div className={styles.custom_input}>
                 <label>E-mail Address</label>
                 <input

@@ -34,11 +34,11 @@ const Footer = () => {
           </Col> */}
         </Row>
       </section>
-      {/* <section className={styles.bottom_sec}>
+      <section className={styles.bottom_sec}>
           <p>
           2022 Mintdropz All rights reserved
           </p>
-      </section> */}
+      </section>
     </div>
   );
 };
