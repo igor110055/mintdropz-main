@@ -16,8 +16,8 @@ const MerchNavbar = () => {
             <img src="/Assets/hamburger.png" alt="test"/>
           </div>
           <div className={styles.nav_items}>
-            <button className="btn btn1 mx-3">Download now</button>
-            <button className="btn btn2" onClick={scrollToForm}>Log In</button>
+            {/* <button className="btn btn1 mx-3">Download now</button> */}
+            {/* <button className="btn btn2" onClick={scrollToForm}>Log In</button> */}
           </div>
         </div>
       );

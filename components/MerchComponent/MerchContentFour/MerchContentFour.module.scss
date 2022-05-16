@@ -19,7 +19,7 @@
     }
   }
   .content_container{
-      margin: 0 100px;
+      margin: 0 50px;
       display: flex;
       justify-content: space-between;
       padding: 50px 0;
@@ -31,7 +31,8 @@
           text-align: start;
           align-self: center;
           // margin: 0 10px;
-          margin: 0 70px;
+          // margin: 0 70px;
+          margin: 0 0px 0 100px;
 
           h3{
               font-family: MADE Outer Sans;
@@ -72,7 +73,8 @@
           .btnbd {
             background: #A150F9;
             color: #fff;
-            padding: 10px 30px;
+            // padding: 10px 30px;
+            padding: 10px 25px;
             border: 1px solid #74727267;
 
             .fa_icon{
@@ -145,9 +147,11 @@
       .middle_img{
         position: relative;
        img{
-        width: 200px;
-        height: 300px;
+        // width: 200px;
+        width: 360px;
+        height: 400px;
         border: none;
+        // padding: 0 100px 0 0 !important;
         
 
       }
@@ -227,6 +231,31 @@
           }
 
       }
+
+      .cone_img{
+          img{
+              width: 600px;
+              height: 500px;
+          }
+      }
+
+      .left_sided_Product_icon{
+        .btnbd {
+          margin: auto;
+          background: #A150F9;
+          color: #fff;
+          padding: 10px 20px;
+          border: 1px solid #74727267;
+
+          .fa_icon{
+            width: 25px !important;
+            height: 25px;
+        }
+      }
+    
+     
+    }
+      
       
   }
 }

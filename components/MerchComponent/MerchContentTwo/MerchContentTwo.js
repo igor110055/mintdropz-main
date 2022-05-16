@@ -59,11 +59,12 @@ const MerchContentTwo = () => {
 
                     {/* image */}
                     <div className={styles.middle_img}>
-                        <img src='/Assets/MerchImage/jamper.png' alt="" />
+                        {/* <img src='/Assets/MerchImage/jamper.png' alt="" /> */}
+                        <img src='/Assets/MerchImage/jamper2.png' alt="" />
 
-                        <div>
+                        {/* <div>
                             <img src='/Assets/MerchImage/smallinnerimg.png' className={styles.inner_img} alt="" />
-                        </div>
+                        </div> */}
                     </div>
 
                     {/* Small image in inner big image */}

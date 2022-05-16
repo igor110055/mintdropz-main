@@ -36,9 +36,8 @@ const MerchContentOne = () => {
                 </div> */}
 
                 <div className={styles.cone_img}>
-                    {/* <img src="/Assets/ArcherImage/ArcherContentTwo.png" alt="" className="" /> */}
-
-                    <div className={styles.inner_img}>
+                    
+                    {/* <div className={styles.inner_img}>
                         <img src="/Assets/MerchImage/1.png" alt="" className="img-fluid" />
                         <img src="/Assets/MerchImage/4.png" alt="" className="img-fluid" />
                         
@@ -56,9 +55,10 @@ const MerchContentOne = () => {
                         <img src="/Assets/MerchImage/1.png" alt="" className="img-fluid" />
                         <img src="/Assets/MerchImage/1.png" alt="" className="img-fluid" />
                         
-                    </div>
+                    </div> */}
 
                 </div>
+
             </div>
         </div>
     );
