@@ -21,7 +21,7 @@ const MerchContentTwo = () => {
 
                 {/*  */}
                 <div className="col-md-6 d-flex">
-                    <div>
+                    <div className={styles.content_left}>
                         {/* <h4>Add to canvas</h4>
                     <p className='py-3'>Write text or upload an image to be placed on your product.</p> */}
                         <div className={styles.left_sided_Product_icon}>
@@ -34,9 +34,9 @@ const MerchContentTwo = () => {
 
                         </div>
 
-                        <h4 className='text-white'>Selected products</h4>
-                        <p className='py-3 mr-5 text-white'>You can select multiple different products and colors. Click on individual products for preview.</p>
-                        <div className='d-flex'>
+                        <h4 className=''>Selected products</h4>
+                        <p className={styles.left_Para}>You can select multiple different products and colors. Click on individual products for preview.</p>
+                        <div className={styles.add_product}>
                             <img src='/Assets/MerchImage/t-shirt.png' className={styles.tshirt_small} style={{ background: `#fff` }} alt="" />
                             <img src='/Assets/MerchImage/jamper.png' className={styles.tshirt_small} style={{ background: `#fff`, marginLeft: '10px' }} alt="" />
                             <div className={styles.fa_plus} data-toggle="modal" data-target="#exampleModal"><FontAwesomeIcon icon={faPlus} size='2x' /></div>

@@ -24,6 +24,24 @@
       justify-content: space-between;
       padding: 50px 0;
 
+      // Added for responsive
+      .content_left{
+        // text-align: center !important;
+        color: #fff;
+
+        .left_Para{
+          // text-align: center;
+          // margin: 0 30px;
+          padding: 15px 0;
+        }
+
+        .add_product{
+          display: flex;
+          // justify-content: center;
+        }
+        
+      }
+
       .content_inner{
           color: #ffffff;
           // color: #000;
@@ -202,6 +220,23 @@
       padding: 50px 0;
       flex-direction: column;
 
+      .content_left{
+        text-align: center !important;
+        color: #fff;
+
+        .left_Para{
+          text-align: center;
+          margin: 0 30px;
+          padding: 25px 0;
+        }
+
+        .add_product{
+          display: flex;
+          justify-content: center;
+        }
+        
+      }
+
       .content_inner{
           color: #ffffff;
           // color: #000;
@@ -243,7 +278,6 @@
       }
 
       .left_sided_Product_icon{
-        margin: 20px;
         .btnbd {
           margin: auto;
           background: #A150F9;
