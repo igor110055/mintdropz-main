@@ -82,9 +82,15 @@
       .cone_img{
         display: flex;
         // background: linear-gradient(180deg, rgba(196, 196, 196, 0) 0%, #A150F9 100%);
-        background: linear-gradient(180deg, rgb(247, 243, 243) 0%, #A150F9 100%);
-        padding: 20px;
+        // background: linear-gradient(180deg, rgb(247, 243, 243) 0%, #A150F9 100%);
+        // padding: 20px;
         width: 100%;
+
+        .contentOneVideo{
+          width: 100%;
+          // max-width: 750px;
+          height: auto;
+        }
 
         
           .inner_img{

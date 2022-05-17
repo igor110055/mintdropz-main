@@ -37,18 +37,24 @@ const MerchContentFive = () => {
                 </div> */}
 
                 <div className={styles.cone_img}>
-                    {/* <img src="/Assets/ArcherImage/ArcherContentTwo.png" alt="" className="" /> */}
+                    {/* <div className={styles.inner_img}>
+                        <img src="/Assets/MerchImage/shopify.png" alt="" className="img-fluid" />
+                        <img src="/Assets/MerchImage/shopify.png" alt="" className="img-fluid" />
+                    </div>
+                    <div className={styles.inner_img}>
+                        <img src="/Assets/MerchImage/shopify.png" alt="" className="img-fluid" />
+                        <img src="/Assets/MerchImage/shopify.png" alt="" className="img-fluid" />
+                    </div> */}
 
-                    <div className={styles.inner_img}>
-                        <img src="/Assets/MerchImage/shopify.png" alt="" className="img-fluid" />
-                        <img src="/Assets/MerchImage/shopify.png" alt="" className="img-fluid" />
-                    </div>
-                    <div className={styles.inner_img}>
-                        <img src="/Assets/MerchImage/shopify.png" alt="" className="img-fluid" />
-                        <img src="/Assets/MerchImage/shopify.png" alt="" className="img-fluid" />
-                    </div>
+
+
+                    <video className={styles.contentFiveVideo} loop="true" autoplay="autoplay" muted>
+                        <source src="/Assets/MerchImage/websiteedit.mp4" type="video/mp4" />
+                    </video>
 
                 </div>
+
+
             </div>
         </div>
     );

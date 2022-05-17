@@ -36,7 +36,7 @@ const MerchContentOne = () => {
                 </div> */}
 
                 <div className={styles.cone_img}>
-                    
+
                     {/* <div className={styles.inner_img}>
                         <img src="/Assets/MerchImage/1.png" alt="" className="img-fluid" />
                         <img src="/Assets/MerchImage/4.png" alt="" className="img-fluid" />
@@ -56,6 +56,13 @@ const MerchContentOne = () => {
                         <img src="/Assets/MerchImage/1.png" alt="" className="img-fluid" />
                         
                     </div> */}
+
+                    {/* <video className={styles.contentOneVideo}  autoplay loop controls muted>
+                        <source src="/Assets/MerchImage/Shirtmoonbird10seconds.mp4" type="video/mp4" />
+                    </video> */}
+                    <video className={styles.contentOneVideo}  loop="true" autoplay="autoplay"  muted>
+                        <source src="/Assets/MerchImage/Shirtmoonbird10seconds.mp4" type="video/mp4" />
+                    </video>
 
                 </div>
 

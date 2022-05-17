@@ -81,6 +81,12 @@
       }
       .cone_img{
         display: flex;
+
+        .contentFiveVideo{
+          width: 100%;
+          // max-width: 750px;
+          height: auto;
+        }
         
           .inner_img{
             display: flex;

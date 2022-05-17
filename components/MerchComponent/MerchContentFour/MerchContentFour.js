@@ -20,10 +20,8 @@ const MerchContentFour = () => {
                 </div> */}
 
                 {/*  */}
-                <div className="col-md-6 d-flex">
+                {/* <div className="col-md-6 d-flex">
                     <div>
-                        {/* <h4>Add to canvas</h4>
-                    <p className='py-3'>Write text or upload an image to be placed on your product.</p> */}
                         <div className={styles.left_sided_Product_icon}>
                             <button className={styles.btnbd}><FontAwesomeIcon className={styles.fa_icon} icon={faA} /> Text</button>
                             <button className={styles.btnbd}><FontAwesomeIcon className={styles.fa_icon} icon={faStarOfLife} /> Symbol</button>
@@ -45,11 +43,7 @@ const MerchContentFour = () => {
                             <hr className='' />
                         </div>
 
-                        {/* <div className='d-flex'>
-                        <h6 className='mr-3 zoom'><FontAwesomeIcon icon={faUpRightAndDownLeftFromCenter} /> Zoom in</h6>
-                        <h6 className='show'><FontAwesomeIcon icon={faArrowRotateRight} /> Show back</h6>
-                    </div> */}
-
+                      
                         <div className={styles.fa_zoom_show}>
                             <h6 className={styles.zoom}><FontAwesomeIcon icon={faUpRightAndDownLeftFromCenter} /> Zoom in</h6>
                             <h6 className={styles.show}><FontAwesomeIcon icon={faArrowRotateRight} /> Show back</h6>
@@ -62,16 +56,18 @@ const MerchContentFour = () => {
                     </div>
 
                     <div className={styles.middle_img}>
-                        {/* <img src='/Assets/MerchImage/jamper.png' alt="" /> */}
                         <img src='/Assets/MerchImage/jamper2.png' alt="" />
 
-                        {/* <div>
-                            <img src='/Assets/MerchImage/smallinnerimg.png' className={styles.inner_img} alt="" />
-                        </div> */}
                     </div>
 
 
-                </div>
+                </div> */}
+
+                {/* New added for video */}
+                <video className={styles.contentFourVideo} loop="true" autoplay="autoplay" muted>
+                    <source src="/Assets/MerchImage/Makeyourmerch.mp4" type="video/mp4" />
+                </video>
+
                 {/*  */}
                 <div className={styles.content_inner}>
                     <h1>
