@@ -2,6 +2,11 @@ import React from 'react';
 import styles from './MerchContentFive.module.scss'
 
 const MerchContentFive = () => {
+    const scrollToForm = () => {
+        let hero = document.getElementById("contact-form");
+        hero && hero.scrollIntoView();
+    }
+
     return (
         <div
             className={styles.contentTwo}
@@ -28,6 +33,7 @@ const MerchContentFive = () => {
                         type="button"
                         value="GET STARTED"
                         className="btn my-5"
+                        onClick={scrollToForm}
                     />
                 </div>
 

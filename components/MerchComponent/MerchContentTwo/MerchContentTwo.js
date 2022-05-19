@@ -4,6 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faA, faArrowRotateRight, faCheck, faCirclePlus, faCoffee, faImage, faPlus, faStarOfLife, faUpRightAndDownLeftFromCenter } from '@fortawesome/free-solid-svg-icons'
 
 const MerchContentTwo = () => {
+    const scrollToForm = () => {
+        let hero = document.getElementById("contact-form");
+        hero && hero.scrollIntoView();
+    }
+
     return (
         <div
             className={styles.contentFour}
@@ -90,7 +95,7 @@ const MerchContentTwo = () => {
                         CANNOT be purchased anywhere and is directly sent over
                         by NDO CHAMP to you!
                     </h3> */}
-                    <input type="button" value="GET STARTED" className="btn" />
+                    <input type="button" value="GET STARTED" className="btn" onClick={scrollToForm} />
                 </div>
             </div>
         </div>

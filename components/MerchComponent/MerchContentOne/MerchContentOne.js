@@ -2,6 +2,11 @@ import React from 'react';
 import styles from './MerchContentOne.module.scss';
 
 const MerchContentOne = () => {
+    const scrollToForm = () => {
+        let hero = document.getElementById("contact-form");
+        hero && hero.scrollIntoView();
+    }
+
     return (
         <div
             className={styles.contentTwo}
@@ -27,6 +32,7 @@ const MerchContentOne = () => {
                         type="button"
                         value="GET STARTED"
                         className="btn my-5"
+                        onClick={scrollToForm}
                     />
                 </div>
 
@@ -60,7 +66,7 @@ const MerchContentOne = () => {
                     {/* <video className={styles.contentOneVideo}  autoplay loop controls muted>
                         <source src="/Assets/MerchImage/Shirtmoonbird10seconds.mp4" type="video/mp4" />
                     </video> */}
-                    <video className={styles.contentOneVideo}  loop="true" autoplay="autoplay"  muted>
+                    <video className={styles.contentOneVideo} loop="true" autoplay="autoplay" muted>
                         <source src="/Assets/MerchImage/Shirtmoonbird10secondsUpdate.mp4" type="video/mp4" />
                     </video>
 
