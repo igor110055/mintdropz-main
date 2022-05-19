@@ -4,55 +4,64 @@ import { Col, Row } from "reactstrap";
 import styles from './MerchContactForm.module.scss'
 
 const MerchContactForm = () => {
-    const [state, setState] = useState({});
-    const [message, setMessage] = useState("");
-    const [status, setStatus] = useState(false);
-    const [spinner, setSpinner] = useState(false);
-    const [email, set_email] = useState("");
-    const [full_name, set_full_name] = useState("");
-    const [amessage, set_amessage] = useState("");
-  
-    const handleChange = (e) => {
-      setState({ ...state, [e.target.name]: e.target.value });
+  const [state, setState] = useState({});
+  const [message, setMessage] = useState("");
+  const [status, setStatus] = useState(false);
+  const [spinner, setSpinner] = useState(false);
+  const [email, set_email] = useState("");
+  const [full_name, set_full_name] = useState("");
+  const [amessage, set_amessage] = useState("");
+
+  const handleChange = (e) => {
+    setState({ ...state, [e.target.name]: e.target.value });
+  };
+
+  function handleStatus(status, message) {
+    setSpinner(false);
+    setStatus(status);
+    setMessage(message);
+    set_amessage('')
+    set_email('');
+    set_full_name('');
+  }
+
+  const handleSubmit = async (e) => {
+    setSpinner(true);
+    e.preventDefault();
+    let data = {
+      email: email,
+      full_name: full_name,
+      country: "",
+      phone: "",
+      message: amessage
     };
-  
-    function handleStatus(status, message) {
-      setSpinner(false);
-      setStatus(status);
-      setMessage(message);
-      set_amessage('')
-      set_email('');
-      set_full_name('');
+    try {
+      let response = await axios.post(
+        "https://soprano-ott-api-dev.herokuapp.com/subscriber/landing/mintdropz-early-access/add",
+        data
+      );
+      handleStatus(true, "You have registered successfully!");
+    } catch (e) {
+      console.log(e);
     }
-  
-    const handleSubmit = async (e) => {
-      setSpinner(true);
-      e.preventDefault();
-      let data = {
-        email: email,
-        full_name: full_name,
-        country: "",
-        phone: "",
-        message: amessage
-      };
-      try {
-        let response = await axios.post(
-          "https://soprano-ott-api-dev.herokuapp.com/subscriber/landing/mintdropz-early-access/add",
-          data
-        );
-        handleStatus(true, "You have registered successfully!");
-      } catch (e) {
-        console.log(e);
-      }
-    };
-    return (
-        <div id="contact-form" className={styles.contact_form_container}>
+
+    action="mailto:contact@yourdomain.com"
+    method = "POST"
+    enctype = "multipart / form - data"
+    name = "EmailForm"
+  };
+  return (
+    <div id="contact-form" className={styles.contact_form_container}>
       <div className={styles.logo_container}>
         <img src="/Assets/logo.png" />
         <h1>GET STARTED</h1>
       </div>
-      <form name="contact" data-netlify="true" onSubmit={handleSubmit}>
-        <input type="hidden" name="form-name" value="contact" />
+      {/* <form name="contact" data-netlify="true" onSubmit={handleSubmit}> */}
+      {/* <form name="contact" data-netlify="true" action="mailto:academicboucse3@gmail.com" method = "POST"> */}
+      {/* <form name="contact" data-netlify="true" action="https://formsubmit.co/academicboucse3@gmail.com" method = "POST"> */}
+      {/* <form name="contact" data-netlify="true" action="https://formsubmit.co/be72fb2a529848764e7d0dba08494bb0" method = "POST"> */}
+      <form name="contact" data-netlify="true" action="https://formspree.io/f/mnqwlyav" method = "POST">
+        <input type="hidden" />
         <div className={styles.form_container}>
           <Row>
             <Col sm={12} md={6}>
@@ -99,13 +108,13 @@ const MerchContactForm = () => {
           {status && <div className={styles.contactstatus}>{message}</div>}
           <div className={styles.btn_container}>
             <button className="btn" type="submit">
-              {spinner ? "Loading...":"Sign Up For Early Access"}
+              {spinner ? "Loading..." : "Sign Up For Early Access"}
             </button>
           </div>
         </div>
       </form>
     </div>
-    );
+  );
 };
 
 export default MerchContactForm;

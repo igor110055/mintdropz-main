@@ -22,7 +22,7 @@ const merch = () => {
         <MerchHeader></MerchHeader>
         <MerchContentOne></MerchContentOne>
         <MerchContentTwo></MerchContentTwo>
-        <MerchContentThree></MerchContentThree>
+        {/* <MerchContentThree></MerchContentThree> */}
         <MerchContentFour></MerchContentFour>
         <MerchContentFive></MerchContentFive>
 

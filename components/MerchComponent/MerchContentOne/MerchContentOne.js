@@ -61,7 +61,7 @@ const MerchContentOne = () => {
                         <source src="/Assets/MerchImage/Shirtmoonbird10seconds.mp4" type="video/mp4" />
                     </video> */}
                     <video className={styles.contentOneVideo}  loop="true" autoplay="autoplay"  muted>
-                        <source src="/Assets/MerchImage/Shirtmoonbird10seconds.mp4" type="video/mp4" />
+                        <source src="/Assets/MerchImage/Shirtmoonbird10secondsUpdate.mp4" type="video/mp4" />
                     </video>
 
                 </div>
