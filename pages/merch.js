@@ -60,9 +60,9 @@ const merch = () => {
         {/* <Partners /> */}
         <MerchPartner></MerchPartner>
 
-        {/* <ContactForm /> */}
+        <ContactForm />
 
-        <MerchContactForm></MerchContactForm>
+        {/* <MerchContactForm></MerchContactForm> */}
 
         <MerchFooter></MerchFooter>
         {/* <Footer /> */}

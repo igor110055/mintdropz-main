@@ -4,25 +4,87 @@ import styles from "./c-form.module.scss";
 import axios from "axios";
 const ContactForm = () => {
   const [state, setState] = useState({});
-  const [message, setMessage] = useState("");
+  // const [message, setMessage] = useState("");
+  // const [status, setStatus] = useState(false);
+  // const [spinner, setSpinner] = useState(false);
+  // const [email, set_email] = useState("");
+  // const [full_name, set_full_name] = useState("");
+  // const [amessage, set_amessage] = useState("");
+
   const [status, setStatus] = useState(false);
-  const [spinner, setSpinner] = useState(false);
-  const [email, set_email] = useState("");
-  const [full_name, set_full_name] = useState("");
-  const [amessage, set_amessage] = useState("");
+  const [message, setMessage] = useState("");
+
+  const [name, set_name] = useState('');
+  const [email, set_email] = useState('');
+  const [company, set_company] = useState('Mintdropz');
+  const [phone, set_phone] = useState('0178329687');
+  const [msg, set_msg] = useState('');
+  const [is_loading, set_loading] = useState(false);
+  const [server, set_server] = useState(null);
+  const [show_success, set_show_success] = useState(false);
 
   const handleChange = (e) => {
     setState({ ...state, [e.target.name]: e.target.value });
   };
 
+  // function handleStatus(status, message) {
+  //   setSpinner(false);
+  //   setStatus(status);
+  //   setMessage(message);
+  //   set_amessage('')
+  //   set_email('');
+  //   set_full_name('');
+  // }
   function handleStatus(status, message) {
-    setSpinner(false);
+    set_loading(false);
     setStatus(status);
     setMessage(message);
-    set_amessage('')
+    set_msg('')
     set_email('');
-    set_full_name('');
+    set_name('');
   }
+
+  // 
+
+  const doSendEmail = async () => {
+    let jsondata = {
+      email: email,
+      name: name,
+      // full_name: full_name,
+      company: company,
+      phone: phone,
+      msg: msg,
+      // message: amessage,
+      domain: "mintdropz.merch"
+    };
+    set_loading(true);
+    // setSpinner(true);
+    try {
+      let response = await fetch(
+        'https://desolate-hamlet-47455.herokuapp.com/api/email/soprano/send',
+        {
+          method: 'post',
+          headers: {
+            Accept: 'application/json, text/plain, */*',
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(jsondata)
+        }
+      );
+      let data = await response.json();
+      console.log(data);
+      set_loading(false);
+      // setSpinner(false);
+      alert("Message send successfully!");
+      set_show_success(true);
+    } catch (err) {
+      set_loading(false);
+      // setSpinner(false);
+      set_server('some server error');
+    }
+  };
+
+  // 
 
   const handleSubmit = async (e) => {
     setSpinner(true);
@@ -51,7 +113,9 @@ const ContactForm = () => {
         <img src="/Assets/logo.png" />
         <h1>GET STARTED</h1>
       </div>
-      <form name="contact" data-netlify="true" onSubmit={handleSubmit}>
+      {/* <form name="contact" data-netlify="true" onSubmit={handleSubmit}> */}
+      {/* <form name="contact" data-netlify="true" onSubmit={doSendEmail}> */}
+      {/* <form name="contact" data-netlify="true" onSubmit={() => doSendEmail()}>
         <input type="hidden" name="form-name" value="contact" />
         <div className={styles.form_container}>
           <Row>
@@ -64,8 +128,10 @@ const ContactForm = () => {
                   id="name"
                   placeholder="Your Name"
                   required
-                  value={full_name}
-                  onChange={(e) => set_full_name(e.target.value)}
+                  // value={full_name}
+                  value={name}
+                  // onChange={(e) => set_full_name(e.target.value)}
+                  onChange={(e) => set_name(e.target.value)}
                 />
               </div>
             </Col>
@@ -91,19 +157,102 @@ const ContactForm = () => {
               name="comment"
               id="comment"
               required
-              value={amessage}
-              onChange={(e) => set_amessage(e.target.value)}
+              // value={amessage}
+              value={msg}
+              // onChange={(e) => set_amessage(e.target.value)}
+              onChange={(e) => set_msg(e.target.value)}
             />
           </div>
-          {spinner && <div className={styles.spinner}></div>}
+          
+          {is_loading && <div className={styles.spinner}></div>}
           {status && <div className={styles.contactstatus}>{message}</div>}
           <div className={styles.btn_container}>
             <button className="btn" type="submit">
-              {spinner ? "Loading...":"Sign Up For Early Access"}
+              {is_loading ? "Loading...":"Sign Up For Early Access"}
             </button>
           </div>
         </div>
-      </form>
+      </form> */}
+
+      <div id="final-form">
+        <section className="form-wrapper">
+          {show_success ? (
+            <div
+              style={{
+                width: '',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center'
+              }}
+            >
+              <img
+                style={{ maxWidth: '220px', height: 'auto' }}
+                src="https://res.cloudinary.com/dbqmuazky/image/upload/v1613748758/check.png"
+              />
+              <h1 style={{ fontSize: '45px', marginTop: '15px' }}>Thank You</h1>
+            </div>
+          ) : (
+            <div className="form-container">
+              <h2>Contact Us</h2>
+              <div className="form-group">
+                <input
+                  value={name}
+                  onChange={e => set_name(e.target.value)}
+                  type="text"
+                  placeholder="Enter Your Name"
+                />
+              </div>
+              <div className="form-group">
+                <input
+                  value={email}
+                  onChange={e => set_email(e.target.value)}
+                  type="text"
+                  placeholder="Enter Your Email"
+                />
+              </div>
+              <div className="form-group">
+                <input
+                  value={company}
+                  onChange={e => set_company(e.target.value)}
+                  type="text"
+                  placeholder="Enter Your Company"
+                />
+              </div>
+              <div className="form-group">
+                <input
+                  value={phone}
+                  onChange={e => set_phone(e.target.value)}
+                  type="text"
+                  placeholder="Enter Your Phone"
+                />
+              </div>
+              <div className="form-group">
+                <textarea
+                  value={msg}
+                  onChange={e => set_msg(e.target.value)}
+                  type="text"
+                  placeholder="Enter Your Message"
+                />
+              </div>
+              <div style={{ display: 'flex' }}>
+                <button
+                  disabled={is_loading ? 'disabled' : ''}
+                  onClick={() => doSendEmail()}
+                  className="form-btn"
+                >
+                  {is_loading ? 'Loading...' : 'Contact Us'}
+                </button>
+              </div>
+            </div>
+          )}
+        </section>
+
+
+      </div>
+
+
+
     </div>
   );
 };
