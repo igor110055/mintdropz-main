@@ -78,7 +78,7 @@ const ContactForm = () => {
       console.log(data);
       set_loading(false);
       // setSpinner(false);
-      alert("Message send successfully!");
+      // alert("Message send successfully!");
       set_show_success(true);
     } catch (err) {
       set_loading(false);
@@ -115,8 +115,11 @@ const ContactForm = () => {
       position: 'center',
       icon: 'success',
       title: 'Sign Up Successfully!',
-      showConfirmButton: false,
-      timer: 1500
+      text: 'Thank you for your response',
+      showConfirmButton: true,
+      timer: 1500,
+      width: "600px",
+      
     })
   }
 
@@ -126,7 +129,7 @@ const ContactForm = () => {
         <img src="/Assets/logo.png" />
         <h1>GET STARTED</h1>
       </div>
-
+     
       <div id="final-form">
         <section className="form-wrapper">
           {show_success ? (
