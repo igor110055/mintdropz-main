@@ -45,10 +45,10 @@ const MerchContactForm = () => {
       console.log(e);
     }
 
-    action="mailto:contact@yourdomain.com"
-    method = "POST"
-    enctype = "multipart / form - data"
-    name = "EmailForm"
+    // action="mailto:contact@yourdomain.com"
+    // method = "POST"
+    // enctype = "multipart / form - data"
+    // name = "EmailForm"
   };
   return (
     <div id="contact-form" className={styles.contact_form_container}>
@@ -56,12 +56,12 @@ const MerchContactForm = () => {
         <img src="/Assets/logo.png" />
         <h1>GET STARTED</h1>
       </div>
-      {/* <form name="contact" data-netlify="true" onSubmit={handleSubmit}> */}
+      <form name="contact" data-netlify="true" onSubmit={handleSubmit}>
       {/* <form name="contact" data-netlify="true" action="mailto:academicboucse3@gmail.com" method = "POST"> */}
       {/* <form name="contact" data-netlify="true" action="https://formsubmit.co/academicboucse3@gmail.com" method = "POST"> */}
       {/* <form name="contact" data-netlify="true" action="https://formsubmit.co/be72fb2a529848764e7d0dba08494bb0" method = "POST"> */}
-      <form name="contact" data-netlify="true" action="https://formspree.io/f/mnqwlyav" method = "POST">
-        <input type="hidden" />
+      {/* <form name="contact" data-netlify="true" action="https://formspree.io/f/mnqwlyav" method = "POST"> */}
+      <input type="hidden" name="form-name" value="contact" />
         <div className={styles.form_container}>
           <Row>
             <Col sm={12} md={6}>
