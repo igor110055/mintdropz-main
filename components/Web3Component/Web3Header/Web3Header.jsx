@@ -25,7 +25,7 @@ const Web3Header = () => {
                         </div>
 
                         <div className={styles.header_text}>
-                            <p className="mx-md-5 px-md-5 pb-4">
+                            <p className="mx-md-5 px-md-5 pb-md-4">
                                 Create your own web3 projects with the Mintdropz
                                 Creator Toolkit that allows you to fund your
                                 ideas.

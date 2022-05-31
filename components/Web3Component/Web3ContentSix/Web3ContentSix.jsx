@@ -19,7 +19,7 @@ const Web3ContentSix = () => {
                         Multiple creators building towards the same vision? No
                         problem.
                     </h4> */}
-                    <h4 className="py-3">
+                    <h4 className="py-md-3">
                         Completely Dyanmic Front End and Backend
                     </h4>
 

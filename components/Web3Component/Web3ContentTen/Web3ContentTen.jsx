@@ -17,7 +17,7 @@ import styles from "./Web3ContentTen.module.scss";
 const Web3ContentTen = () => {
     return (
         <div className={styles.slider_container}>
-            <div className="py-4">
+            <div className="py-3">
                 <h1>Mirror Updates</h1>
                 <h5>All the latest updates and community happenings</h5>
             </div>

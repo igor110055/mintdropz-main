@@ -133,7 +133,7 @@
         margin: auto;
         display: flex;
         justify-content: center;
-        padding: 50px 0;
+        padding: 20px 0;
         flex-direction: column;
 
         .content_inner{
@@ -146,7 +146,7 @@
             h1{
                 font-family: MADE Outer Sans;
                 font-style: normal;
-                font-weight: bold;
+                font-weight: 400;
                 font-size: 22px;
                 line-height: 40px;
                 text-align: center;
@@ -159,9 +159,8 @@
               h4{
                 font-family: MADE Outer Sans;
                 font-style: normal;
-                // font-weight: bold;
-                font-size: 14px;
-                line-height: 30px;
+                font-weight: 400;
+                font-size: 12px;
                 text-align: center;
                 color: #ffffff;
                 margin-bottom: 0 !important;
@@ -190,7 +189,7 @@
             color: #ffffff;
             font-size: 14px;
             font-weight: 400;
-            padding: 10px 30px;
+            padding: 8px 30px;
             margin: 50px 0 0 0;
             display: block;
             margin: auto;
