@@ -17,56 +17,57 @@ import styles from "../styles/home.module.scss";
 const merch = () => {
     return (
         <div className={styles.home_container} data-aos='fade' data-aos-duration='1000'>
-        {/* <ArcherNavbar></ArcherNavbar> */}
-        <MerchNavbar></MerchNavbar>
-        <MerchHeader></MerchHeader>
-        <MerchContentOne></MerchContentOne>
-        <MerchContentTwo></MerchContentTwo>
-        {/* <MerchContentThree></MerchContentThree> */}
-        <MerchContentFour></MerchContentFour>
-        <MerchContentFive></MerchContentFive>
+            {/* <ArcherNavbar></ArcherNavbar> */}
+            <MerchNavbar></MerchNavbar>
+            <MerchHeader></MerchHeader>
+            <MerchContentOne></MerchContentOne>
+            <MerchContentTwo></MerchContentTwo>
+            {/* <MerchContentThree></MerchContentThree> */}
+            <MerchContentFour></MerchContentFour>
+            <MerchContentFive></MerchContentFive>
 
-        {/* <NdoChampsNavbar></NdoChampsNavbar> */}
+            {/* <NdoChampsNavbar></NdoChampsNavbar> */}
 
-        {/* <ArcherHeader></ArcherHeader> */}
+            {/* <ArcherHeader></ArcherHeader> */}
 
-        {/* <NdoChampsHeader></NdoChampsHeader> */}
-        {/* <NdoChamps></NdoChamps> */}
+            {/* <NdoChampsHeader></NdoChampsHeader> */}
+            {/* <NdoChamps></NdoChamps> */}
 
-        {/* <ArcherContentOne></ArcherContentOne> */}
+            {/* <ArcherContentOne></ArcherContentOne> */}
 
-        {/* <ExclusiveNftRewords></ExclusiveNftRewords> */}
-        {/* <ContentTwo></ContentTwo> */}
+            {/* <ExclusiveNftRewords></ExclusiveNftRewords> */}
+            {/* <ContentTwo></ContentTwo> */}
 
-        {/* <ArcherContentTwo></ArcherContentTwo> */}
+            {/* <ArcherContentTwo></ArcherContentTwo> */}
 
-        {/* <ContentThree></ContentThree> */}
-        {/* <ContentFour></ContentFour> */}
+            {/* <ContentThree></ContentThree> */}
+            {/* <ContentFour></ContentFour> */}
 
-        {/* <ArcherContentThree></ArcherContentThree>
-        <ArcherContentFour></ArcherContentFour>
-        <ArcherContentFive></ArcherContentFive>
-        <ArcherContentSix></ArcherContentSix>
-        <ArcherContentSeven></ArcherContentSeven>
-        <ArcherContentEight></ArcherContentEight>
-        <ArcherContentNine></ArcherContentNine>
-        <ArcherChallenge></ArcherChallenge>
-        <ArcherContentTen></ArcherContentTen>
-        <ArcherContentEleven></ArcherContentEleven> */}
+            {/* <ArcherContentThree></ArcherContentThree>
+            <ArcherContentFour></ArcherContentFour>
+            <ArcherContentFive></ArcherContentFive>
+            <ArcherContentSix></ArcherContentSix>
+            <ArcherContentSeven></ArcherContentSeven>
+            <ArcherContentEight></ArcherContentEight>
+            <ArcherContentNine></ArcherContentNine>
+            <ArcherChallenge></ArcherChallenge>
+            <ArcherContentTen></ArcherContentTen>
+            <ArcherContentEleven></ArcherContentEleven> */}
 
-        {/* <ContentFive></ContentFive> */}
-        {/* <Challenge></Challenge> */}
+            {/* <ContentFive></ContentFive> */}
+            {/* <Challenge></Challenge> */}
 
-        {/* <Partners /> */}
-        <MerchPartner></MerchPartner>
+            {/* <Partners /> */}
+            <MerchPartner></MerchPartner>
 
-        <ContactForm />
+            <ContactForm />
 
-        {/* <MerchContactForm></MerchContactForm> */}
+            {/* do not using MerchContactForm */}
+            {/* <MerchContactForm></MerchContactForm> */}
 
-        <MerchFooter></MerchFooter>
-        {/* <Footer /> */}
-    </div>
+            <MerchFooter></MerchFooter>
+            {/* <Footer /> */}
+        </div>
     );
 };
 

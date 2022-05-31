@@ -10,7 +10,7 @@ const Partners = () => {
     hero && hero.scrollIntoView();
   }
   return (
-    <div className={styles.partners_container} data-aos='fade-up' data-aos-duration='1000'> 
+    <div className={styles.partners_container} data-aos='fade-up' data-aos-duration='1000'>
       <div className={styles.top_header}>
         <h1>PARTNERS</h1>
       </div>
@@ -73,7 +73,7 @@ const Partners = () => {
         </div>
       </section>
       <div className={styles.btn_container} >
-      <button className="btn" onClick={scrollToForm}>GET STARTED</button>
+        <button className="btn" onClick={scrollToForm}>GET STARTED</button>
       </div>
     </div>
   );

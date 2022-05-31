@@ -1,0 +1,102 @@
+.web3_content_two_container{
+    .web3_content_two_section{
+        .web3_content_text{
+            text-align: center;
+            padding: 100px 0 0px 0;
+
+            h1{
+                color: #fff;
+                font-size: 70px;
+                font-weight: 500;
+            }
+            h5{
+                color: #fff;
+                font-size: 20px;
+                // margin: 30px 0;
+            }
+        }
+        .btn_group{
+            text-align: center;
+            .btn_pub{
+                background: #CBE3FD;
+                box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+                border-radius: 25px;
+                color: #007AFF;
+                padding: 5px 50px;
+                font-size: 15px;
+
+            }
+            .btn_fund{
+                background: #DFFFE2;
+                box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+                border-radius: 25px;
+                color: #4CC759;
+                padding: 5px 50px;
+                margin: 10px;
+                font-size: 15px;
+            }
+            .btn_comm{
+                background: #FFE0E0;
+                box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+                border-radius: 25px;
+                color: #F14242;
+                padding: 5px 50px;
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .web3_content_two_container{
+        .web3_content_two_section{
+            .web3_content_text{
+                text-align: center;
+                padding: 100px 0 0px 0;
+    
+                h1{
+                    color: #fff;
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+                h5{
+                    color: #fff;
+                    font-size: 12px;
+                    // margin: 30px 0;
+                }
+            }
+            .btn_group{
+                text-align: center;
+                .btn_pub{
+                    background: #CBE3FD;
+                    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+                    border-radius: 25px;
+                    color: #007AFF;
+                    // padding: 5px 50px;
+                    padding: 3px 18px;
+                    font-size: 12px;
+    
+                }
+                .btn_fund{
+                    background: #DFFFE2;
+                    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+                    border-radius: 25px;
+                    color: #4CC759;
+                    // padding: 5px 50px;
+                    padding: 3px 25px;
+                    margin: 10px;
+                    font-size: 12px;
+                }
+                .btn_comm{
+                    background: #FFE0E0;
+                    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+                    border-radius: 25px;
+                    color: #F14242;
+                    // padding: 5px 50px;
+                    padding: 3px 15px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

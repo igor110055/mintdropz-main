@@ -15,6 +15,7 @@ const MerchFooter = () => {
                 <div className={styles.links_container} id={styles.first_link_container}>
                   <h6>SOCIALS</h6>
                   <p><a href="https://www.instagram.com/mintdropzofficial/" target="_blank">Instagram</a></p>
+                  <p><a href="#" target="_blank">Discord</a></p>
                   <p><a href="https://twitter.com/Mintdropz1" target="_blank">Twitter</a></p>
                   <p><a href="https://www.linkedin.com/company/mintdropz/mycompany/?viewAsMember=true" target="_blank">Linkedin</a></p>
                 </div>

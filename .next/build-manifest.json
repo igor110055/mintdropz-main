@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/merch": [
+    "/web3": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/merch.js"
+      "static/chunks/pages/web3.js"
     ]
   },
   "ampFirstPages": []

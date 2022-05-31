@@ -1,0 +1,108 @@
+.web3_content_eleven_container{
+    text-align: center;
+    margin: 0px 0 100px 0;
+    .input_group{
+        margin: 60px 0 80px 0;
+        .read_btn{
+            background-color: transparent;
+            border: 1px solid #fff;
+            transition: all 500ms;
+        }
+        .read_btn:hover{
+            background-color: #8C58FF;
+            border: 1px solid #8C58FF;
+        }
+        input{
+            background: #8C58FF;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 12px 30px;
+            border-radius: 5px;
+            // border: none;
+            // margin: 20px 0 0 0;
+
+        }
+        .discord_btn{
+            padding: 12px 55px;
+            margin: 0 0 0 60px;
+            border: 1px solid #8C58FF;
+        }
+    }
+    .lower_input{
+        input{
+            background: #8C58FF;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 13px 160px;
+            
+            border-radius: 5px;
+            border: none;
+            margin: 80px 0 0 0;
+
+        }
+    }
+    .text_start{
+        color: #fff;
+        font-weight: bold;
+        font-size: 23px;
+        
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .web3_content_eleven_container{
+        text-align: center;
+        margin: 0px 0 100px 0;
+        .input_group{
+            margin: 20px 0 80px 0;
+            .read_btn{
+                background-color: transparent;
+                border: 1px solid #fff;
+                transition: all 500ms;
+            }
+            .read_btn:hover{
+                background-color: #8C58FF;
+                border: 1px solid #8C58FF;
+            }
+            input{
+                background: #8C58FF;
+                color: #ffffff;
+                font-size: 14px;
+                font-weight: 400;
+                padding: 8px 10px;
+                border-radius: 5px;
+                // border: none;
+                // margin: 20px 0 0 0;
+    
+            }
+            .discord_btn{
+                padding: 8px 25px;
+                margin: 0 0 0 20px;
+                border: 1px solid #8C58FF;
+            }
+        }
+        .lower_input{
+            input{
+                background: #8C58FF;
+                color: #ffffff;
+                font-size: 14px;
+                font-weight: 400;
+                padding: 13px 20px;
+                border-radius: 5px;
+                border: none;
+                margin: 80px 0 0 0;
+    
+            }
+            display: none;
+        }
+        .text_start{
+            color: #fff;
+            font-weight: bold;
+            font-size: 14px;
+            display: none;
+            
+        }
+    }
+}

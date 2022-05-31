@@ -1,0 +1,184 @@
+.Web3ContentThree{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 0;
+    zoom: 100%;
+    .top_header {
+      // h1 {
+      //   font-family: MADE Outer Sans;
+      //   font-style: normal;
+      //   font-weight: bold;
+      //   font-size: 40px;
+      //   line-height: 77px;
+      //   text-align: center;
+      //   color: #ffffff;
+      //   margin-bottom: 0 !important;
+      // }
+    }
+    .content_container{
+        margin: 0 100px;
+        display: flex;
+        justify-content: space-between;
+        padding: 50px 0;
+
+        .content_inner{
+            color: #ffffff;
+            text-align: start;
+            // align-self: center;
+            // margin: 0 10px;
+            margin: 0 0 0 40px;
+
+            h1 {
+              font-family: MADE Outer Sans;
+              font-style: normal;
+              font-weight: bold;
+              font-size: 40px;
+              line-height: 50px;
+              // text-align: center;
+              color: #ffffff;
+              margin-bottom: 0 !important;
+            }
+
+            h4{
+                font-family: MADE Outer Sans;
+                font-style: normal;
+                // font-weight: bold;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: start;
+                color: #ffffff;
+                // margin-bottom: 0px !important;
+        
+              }
+
+            input{
+                background: #8C58FF;
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 400;
+                padding: 10px 40px;
+                margin: 50px 0 0 0;
+                display: block;
+
+            }
+
+        }
+        .img_container{
+          align-self: center;
+          img{
+            width: 430px;
+            // height: 300px;
+          }
+
+          input{
+            background: #8C58FF;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 10px 40px;
+            margin: 50px 0 0 0;
+            display: none;
+
+        }
+        }
+        
+    }
+}
+
+@media only screen and (max-width: 767px) {
+  .Web3ContentThree{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    padding: 2rem 0;
+    zoom: 100%;
+    .top_header {
+      h1 {
+        font-family: MADE Outer Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 34px;
+        line-height: 50px;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 0 !important;
+      }
+    }
+    .content_container{
+        // margin: 0 100px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding: 50px 0;
+        // flex-direction: column;
+        flex-flow: column-reverse;
+
+        .content_inner{
+            color: #ffffff;
+            text-align: center;
+            align-self: center;
+            margin: 50px 20px;
+
+            h1 {
+              font-family: MADE Outer Sans;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 22px;
+              line-height: 30px;
+              // text-align: center;
+              color: #ffffff;
+              margin-bottom: 0 !important;
+            }
+
+            h4{
+              font-family: MADE Outer Sans;
+              font-style: normal;
+              // font-weight: bold;
+              font-size: 14px;
+              line-height: 25px;
+              text-align: center;
+              color: #ffffff;
+              margin-bottom: 0 !important;
+      
+            }
+
+            input{
+                background: #8C58FF;
+                color: #ffffff;
+                font-size: 16px;
+                font-weight: 400;
+                padding: 10px 40px;
+                display: none;
+
+            }
+
+        }
+
+        .img_container{
+          align-self: center;
+          text-align: center !important;
+          img{
+            max-width: 330px;
+            // height: 300px;
+          }
+
+          input{
+            background: #8C58FF;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 400;
+            padding: 10px 40px;
+            margin: 50px 0 0 0;
+            display: block;
+            margin: auto;
+          
+
+        }
+        }
+        
+    }
+  }
+}
