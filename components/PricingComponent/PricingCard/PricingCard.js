@@ -9,9 +9,9 @@ const PricingCard = () => {
                     <div className={styles.PricingCard_inner}>
                         <div className="card" id={styles.pricing_card_one}>
                             <div className="card-body" id={styles.card_body}>
-                                <h2 className="card-title" id={styles.card_title}>BASIC</h2>
-                                <h2 className="card-title" id={styles.card_title}>$79/mo</h2>
-                                <p className='text-center'>+$0.50 per subscriber/mo</p>
+                                <h2 className="card-title" id={styles.card_title}>Basic</h2>
+                                <h2 className="card-title" id={styles.card_title}>FREE</h2>
+                                {/* <p className='text-center'>+$0.50 per subscriber/mo</p> */}
                                 <ul className={styles.card_list_text}>
                                     <li>Customizable Own Smart Contracts</li>
                                     <li>Customizable Mint Page</li>
@@ -43,7 +43,7 @@ const PricingCard = () => {
                             <div className="card-body" id={styles.card_body}>
                                 <h2 className="card-title" id={styles.card_title}>Growth</h2>
                                 <h2 className="card-title" id={styles.card_title}>$369/mo</h2>
-                                <p className='text-center'>+$0.50 per subscriber/mo</p>
+                                {/* <p className='text-center'>+$0.50 per subscriber/mo</p> */}
                                 <ul className={styles.card_list_text}>
                                     <li>Fully Customizeable Smart Contracts</li>
                                     <li>Customizable Mint Page</li>
@@ -78,6 +78,8 @@ const PricingCard = () => {
                                 <h2 className="card-title" id={styles.card_title}>Contact US</h2>
                                 <p className='ps-3'>Everything in Growth, Plus:</p>
                                 <ul className={styles.card_list_text}>
+                                    <li>DAO Smart Contract</li>
+                                    <li>ERC20 Smart Contract</li>
                                     <li>One on One on Boarding</li>
                                     <li>Customer Success Manager</li>
                                     <li>3% of Income you earn on Mintdropz</li>
@@ -85,10 +87,10 @@ const PricingCard = () => {
                                     <li>White-labeled branding</li>
                                     <li>Opensea Style Marketplace</li>
                                 </ul>
-                                {/* <div className={styles.price_hr}>
 
-                        </div> */}
-                                <p className='ps-3'>Scale with confidence</p>
+                                <div className={styles.price_hr}></div>
+
+                                {/* <p className='ps-3'>Scale with confidence</p> */}
                                 <ul className={styles.card_list_text}>
                                     <li>API Access For All Features</li>
                                     <li>Support for your customers</li>

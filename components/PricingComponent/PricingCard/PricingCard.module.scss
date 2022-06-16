@@ -5,7 +5,7 @@
         justify-content: center;
         #pricing_card_one{
             width: 22rem !important;
-            height: 580px;
+            height: 680px;
             #card_body{
                 #card_title{
                     font-size: 35px !important;
@@ -16,6 +16,8 @@
                 .card_list_text{
                     li{
                         font-size: 15px;
+                        // line-height: 30px;
+                        padding: 3px 0;
                     }
                 }
                 .price_hr{
@@ -24,7 +26,7 @@
                 }
 
                 .start_btn_class{
-                    margin: 50px 0 80px 0;
+                    margin: 178px 0 80px 0;
 
                     #start_btn{
                         background-color: #8C58FF;
@@ -49,7 +51,7 @@
 
         #pricing_card_two{
             width: 22rem !important;
-            height: 680px;
+            height: 760px;
             margin: -50px 0 0 0;
             box-shadow: 3px 3px 8px 3px rgba(116, 138, 252, 0.45);
             .middle_cart_top_text{
@@ -69,6 +71,8 @@
                 .card_list_text{
                     li{
                         font-size: 15px;
+                        // line-height: 30px;
+                        padding: 3px 0;
                     }
                 }
                 .price_hr{
@@ -103,7 +107,7 @@
 
         #pricing_card_three{
             width: 22rem !important;
-            height: 580px;
+            height: 680px;
             #card_body{
                 #card_title1{
                     font-size: 20px !important;
@@ -120,6 +124,7 @@
                 .card_list_text{
                     li{
                         font-size: 15px;
+                        padding: 3px 0;
                     }
                 }
                 .price_hr{
@@ -128,7 +133,7 @@
                 }
 
                 .start_btn_class{
-                    margin: 50px 0 80px 0;
+                    margin: 18px 0 80px 0;
 
                     #start_btn{
                         background-color: #1D1C20;
@@ -174,7 +179,8 @@
                     .card_list_text{
                         li{
                             font-size: 14px;
-                            line-height: 30px;
+                            // line-height: 30px;
+                            padding: 8px 0;
                         }
                     }
                     .price_hr{
@@ -227,7 +233,8 @@
                     .card_list_text{
                         li{
                             font-size: 14px;
-                            line-height: 30px;
+                            // line-height: 30px;
+                            padding: 8px 0;
                         }
                     }
                     .price_hr{
@@ -236,7 +243,7 @@
                     }
     
                     .start_btn_class{
-                        margin: 50px 0 10px 0;
+                        margin: 40px 0 10px 0;
     
                         #start_btn{
                             background-color: #8C58FF;
@@ -262,7 +269,7 @@
     
             #pricing_card_three{
                 width: 22rem;
-                height: 590px;
+                height: 718px;
                 margin: 30px 0 0px 0;
                 #card_body{
                     #card_title1{
@@ -284,7 +291,8 @@
                     .card_list_text{
                         li{
                             font-size: 14px;
-                            line-height: 30px;
+                            // line-height: 30px;
+                            padding: 8px 0;
                         }
                     }
                     .price_hr{
