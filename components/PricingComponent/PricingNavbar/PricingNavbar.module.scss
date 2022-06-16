@@ -1,0 +1,123 @@
+.nav_container {
+    width: 100%;
+    height: auto;
+    z-index:1000;
+    position: fixed;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 4rem;
+    .logo_sec {
+      padding: 1rem;
+      img {
+        max-width: 100%;
+        animation:Spin 3s linear infinite;
+  
+        @keyframes Spin{
+          to {
+            transform:rotateY(1Turn);
+          }
+        }
+      }
+    }
+    .hamburger_container{
+      display: none;
+    }
+    .nav_items {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      button {
+        // background: #8c58ff;
+        // border: 1px solid #8c58ff;
+        
+        border-radius: 7px;
+        font-family: MADE Outer Sans;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        color: #ffffff;
+        padding: 10px 1rem;
+        margin: 0 auto;
+      }
+
+      #get_started_btn{
+        background: #8c58ff;
+        border: 1px solid #8c58ff;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        color: #ffffff;
+        margin: 0 0 0 50px;
+      }
+      p {
+        font-family: MADE Outer Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        color: #ffffff;
+        margin-bottom: 0;
+        margin-left: 1rem;
+        cursor: pointer;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .nav_container {
+      width: 100%;
+      height: auto;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1px 1rem;
+      .logo_sec {
+        padding: 1rem;
+        img {
+          max-width: 100%;
+        }
+      }
+      .hamburger_container{
+        display: block;
+        padding: 1rem;
+        img{
+          width: 40px;
+        }
+      }
+      .nav_items {
+        display: none;
+        align-items: center;
+        justify-content: flex-end;
+        button {
+          background: #8c58ff;
+          border: 1px solid #8c58ff;
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          border-radius: 7px;
+          font-family: MADE Outer Sans;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 20px;
+          text-align: center;
+          color: #ffffff;
+          padding: 10px 1rem;
+          margin: 0 auto;
+        }
+        p {
+          font-family: MADE Outer Sans;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 20px;
+          color: #ffffff;
+          margin-bottom: 0;
+          margin-left: 1rem;
+          cursor: pointer;
+        }
+      }
+    }
+   }

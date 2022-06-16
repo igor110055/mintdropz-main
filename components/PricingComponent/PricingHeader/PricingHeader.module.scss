@@ -1,0 +1,29 @@
+.PricingHeader_container{
+    padding: 200px 0 100px 0;
+    text-align: center;
+    h1{
+        font-size: 50px;
+        color: #fff;
+        font-weight: bold;
+    }
+    p{
+        font-size: 20px;
+        color: #fff;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .PricingHeader_container{
+        padding: 80px 0 100px 0;
+        text-align: center;
+        h1{
+            font-size: 20px;
+            color: #fff;
+            font-weight: bold;
+        }
+        p{
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+}

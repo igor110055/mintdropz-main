@@ -1,0 +1,319 @@
+.PricingCard_container{
+    padding: 0px 0 100px 0;
+    .PricingCard_inner{
+        display: flex;
+        justify-content: center;
+        #pricing_card_one{
+            width: 22rem !important;
+            height: 580px;
+            #card_body{
+                #card_title{
+                    font-size: 35px !important;
+                    text-align: center;
+                    margin: 40px 10px;
+                    line-height: 0px;
+                }
+                .card_list_text{
+                    li{
+                        font-size: 15px;
+                    }
+                }
+                .price_hr{
+                    border-top: 2px solid #C4C4C4;
+                    padding: 10px 0;
+                }
+
+                .start_btn_class{
+                    margin: 50px 0 80px 0;
+
+                    #start_btn{
+                        background-color: #8C58FF;
+                        width: 60%;
+                        margin: auto;
+                        border-radius: 7px;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        padding: 5px 10px;
+                        
+                        a{
+                            color: #fff;
+                            
+                        }
+                    }
+                }  
+
+            }
+
+        }
+
+        // new two
+
+        #pricing_card_two{
+            width: 22rem !important;
+            height: 680px;
+            margin: -50px 0 0 0;
+            box-shadow: 3px 3px 8px 3px rgba(116, 138, 252, 0.45);
+            .middle_cart_top_text{
+                text-align: center;
+                background-color: #737373;
+                padding: 5px 10px;
+                color: #fff;
+            }
+            #card_body{
+                
+                #card_title{
+                    font-size: 35px !important;
+                    text-align: center;
+                    margin: 40px 10px;
+                    line-height: 0px;
+                }
+                .card_list_text{
+                    li{
+                        font-size: 15px;
+                    }
+                }
+                .price_hr{
+                    border-top: 2px solid #C4C4C4;
+                    padding: 10px 0;
+                }
+
+                .start_btn_class{
+                    margin: 30px 0 10px 0;
+
+                    #start_btn{
+                        background-color: #8C58FF;
+                        width: 60%;
+                        margin: auto;
+                        border-radius: 7px;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        padding: 5px 10px;
+                        
+                        a{
+                            color: #fff;
+                            
+                        }
+                    }
+                }  
+
+            }
+            
+
+        }
+
+        // new 3
+
+        #pricing_card_three{
+            width: 22rem !important;
+            height: 580px;
+            #card_body{
+                #card_title1{
+                    font-size: 20px !important;
+                    text-align: center;
+                    margin: 40px 10px;
+                    line-height: 0px;
+                }
+                #card_title{
+                    font-size: 35px !important;
+                    text-align: center;
+                    margin: 40px 10px;
+                    line-height: 0px;
+                }
+                .card_list_text{
+                    li{
+                        font-size: 15px;
+                    }
+                }
+                .price_hr{
+                    border-top: 2px solid #C4C4C4;
+                    padding: 10px 0;
+                }
+
+                .start_btn_class{
+                    margin: 50px 0 80px 0;
+
+                    #start_btn{
+                        background-color: #1D1C20;
+                        width: 60%;
+                        margin: auto;
+                        border-radius: 7px;
+                        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                        padding: 5px 10px;
+                        
+                        a{
+                            color: #fff;
+                            
+                        }
+                    }
+                }  
+
+            }
+
+        }
+    }
+   
+}
+
+@media only screen and (max-width: 767px) {
+    .PricingCard_container{
+        padding: 0px 0 20px 0;
+        .PricingCard_inner{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: auto;
+            #pricing_card_one{
+                width: 22rem;
+                height: 520px;
+                margin: 0px 0 80px 0;
+                #card_body{
+                    #card_title{
+                        font-size: 20px !important;
+                        text-align: center;
+                        margin: 30px 10px;
+                        line-height: 0px;
+                    }
+                    .card_list_text{
+                        li{
+                            font-size: 14px;
+                            line-height: 30px;
+                        }
+                    }
+                    .price_hr{
+                        border-top: 2px solid #C4C4C4;
+                        padding: 10px 0;
+                    }
+    
+                    .start_btn_class{
+                        margin: 50px 0 80px 0;
+    
+                        #start_btn{
+                            background-color: #8C58FF;
+                            width: 60%;
+                            margin: auto;
+                            border-radius: 7px;
+                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                            padding: 5px 10px;
+                            
+                            a{
+                                color: #fff; 
+                            }
+                        }
+                    }  
+    
+                }
+    
+            }
+    
+            // new two
+    
+            #pricing_card_two{
+                width: 22rem;
+                height: 730px;
+                margin: -50px 0 0 0;
+                box-shadow: 3px 3px 8px 3px rgba(116, 138, 252, 0.45);
+                .middle_cart_top_text{
+                    text-align: center;
+                    background-color: #737373;
+                    padding: 5px 10px;
+                    color: #fff;
+                }
+                #card_body{
+                    
+                    #card_title{
+                        font-size: 20px !important;
+                        text-align: center;
+                        margin: 30px 10px;
+                        line-height: 0px;
+                    }
+                    .card_list_text{
+                        li{
+                            font-size: 14px;
+                            line-height: 30px;
+                        }
+                    }
+                    .price_hr{
+                        border-top: 2px solid #C4C4C4;
+                        padding: 10px 0;
+                    }
+    
+                    .start_btn_class{
+                        margin: 50px 0 10px 0;
+    
+                        #start_btn{
+                            background-color: #8C58FF;
+                            width: 60%;
+                            margin: auto;
+                            border-radius: 7px;
+                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                            padding: 5px 10px;
+                            
+                            a{
+                                color: #fff;
+                                
+                            }
+                        }
+                    }  
+    
+                }
+                
+    
+            }
+    
+            // new 3
+    
+            #pricing_card_three{
+                width: 22rem;
+                height: 590px;
+                margin: 30px 0 0px 0;
+                #card_body{
+                    #card_title1{
+                        font-size: 16px !important;
+                        text-align: center;
+                        margin: 30px 10px;
+                        line-height: 0px;
+                    }
+                    #card_title{
+                        font-size: 20px !important;
+                        text-align: center;
+                        margin: 30px 10px;
+                        line-height: 0px;
+                    }
+                    p{
+                        font-size: 14px;
+                        
+                    }
+                    .card_list_text{
+                        li{
+                            font-size: 14px;
+                            line-height: 30px;
+                        }
+                    }
+                    .price_hr{
+                        border-top: 2px solid #C4C4C4;
+                        padding: 10px 0;
+                    }
+    
+                    .start_btn_class{
+                        margin: 50px 0 80px 0;
+    
+                        #start_btn{
+                            background-color: #1D1C20;
+                            width: 60%;
+                            margin: auto;
+                            border-radius: 7px;
+                            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+                            padding: 5px 10px;
+                            
+                            a{
+                                color: #fff;
+                                
+                            }
+                        }
+                    }  
+    
+                }
+    
+            }
+        }
+       
+    }
+}
